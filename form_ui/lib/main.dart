@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:form_ui/leave_mode/leave.dart';
+import 'package:form_ui/leave_mode/leave_1.dart';
+import 'package:form_ui/leave_mode/leave_2.dart';
 
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Leave(),
+      home: const Leave2(),
     );
   }
 }
